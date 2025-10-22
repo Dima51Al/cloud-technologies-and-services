@@ -1,0 +1,28 @@
+name: GitHub Pages Deployment with bad practices
+
+on:
+  push:
+    branches: [ main ]
+
+# ⚠️ red flag №1 !!!
+permissions:
+  contents: write
+  pages: write 
+
+jobs:
+  # ⚠️ red flag №2 !!!
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        # ⚠️ red flag №3 !!!
+        uses: actions/checkout@v2 
+
+      - name: Build and Deploy to Pages
+        # ⚠️ red flag №4 !!!
+        run: |
+          echo "Starting building..."
+          git config user.name "My bad practices Bot"
+          git config user.email "bad@example.com"
+          git push -u origin HEAD:gh-pages --force   
+          echo "Deployment finished via force push."
