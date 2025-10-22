@@ -1,0 +1,53 @@
+name: Secure GitHub Pages Deploy (Recommended)
+
+on:
+  push:
+    branches: [ main ]
+
+# 🌟 Correction 1 !!!
+permissions:
+  contents: read 
+  pages: write 
+  id-token: write
+
+jobs:
+  # 🌟 Correction 2 !!!
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        # 🌟 Correction 3 !!!
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js Environment for Tools
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' 
+          
+      - name: Install HTML Validator
+        run: npm install -g html-validate
+        
+      - name: Run HTML Validation Tests
+        run: html-validate **/*.html
+        
+      - name: Setup Github Pages
+        uses: actions/configure-pages@v4
+        with:
+          static_site_generator: 'none'
+          
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: . 
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        # 🌟 Correction 4 !!!
+        uses: actions/deploy-pages@v4
