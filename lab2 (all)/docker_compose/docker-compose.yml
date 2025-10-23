@@ -1,0 +1,11 @@
+services:
+  diarization-app:
+    image: diarization-app:1.0.0
+    ports:
+      - "127.0.0.1:5000:5000"
+    volumes:
+      - ./uploads:/app/uploads
+      - ./output:/app/output
+    env_file:
+      - .env
+    restart: unless-stopped

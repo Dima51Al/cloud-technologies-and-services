@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  diarization-app:
+    image: diarization-app:latest
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    environment:
+      - FLASK_ENV=development
+      - SECRET_KEY=mysecret123
+    restart: unless-stopped
