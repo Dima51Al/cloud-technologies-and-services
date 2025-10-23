@@ -18,15 +18,15 @@ jobs:
         # ⚠️ red flag №3 !!!
         uses: actions/checkout@v2 
         
-      - name: Setup Node.js Environment for Tools ⚙️
+      - name: Setup Node.js Environment for Tools
         uses: actions/setup-node@v4
         with:
           node-version: '20' 
           
-      - name: Install HTML Validator 📦
+      - name: Install HTML Validator
         run: npm install -g html-validate
         
-      - name: Run HTML Validation Tests ✅
+      - name: Run HTML Validation Tests
         run: html-validate **/*.html
 
       - name: Build and Deploy to Pages
