@@ -1,0 +1,24 @@
+FROM python:latest
+
+RUN apt-get update && apt-get install -y \
+    ffmpeg \
+    libsndfile1
+
+WORKDIR /app
+
+RUN pip install --index-url https://download.pytorch.org/whl/cpu \
+    torch torchvision torchaudio \
+ && pip install torchmetrics
+
+COPY . .
+
+RUN pip install -r requirements.txt
+
+
+RUN ls -la /app/models/reverb-diarization-v2 || true
+
+RUN mkdir -p uploads output && chown -R 1000:1000 /app/uploads /app/output
+
+EXPOSE 5000
+
+CMD python app.py
