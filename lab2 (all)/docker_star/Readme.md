@@ -174,4 +174,5 @@ networks:
 
 `nginx` к обоим (необходимо)
 
-
+![img_1.png](img_1.png)
+![img.png](img.png)
