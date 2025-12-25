@@ -1,0 +1,39 @@
+IT Tower;Service Family;Service Type;Service Sub Type;Service Usage Type;Meter Category;Meter Sub-Category;Meter Name;Consumed Service
+Database;Database;Azure SQL Database;Database Units;Database Units;SQL Database;;Database Units%;Database
+Database;Database;Azure SQL Database;Backup Storage;Data Stored;SQL Database;LTR Backup Storage;Data Stored;
+Database;Database;Azure SQL Database;Managed Instance;Managed Instance;SQL Database;Managed Instance%;;Microsoft.Sql
+Database;Database;Azure SQL Database;Single/Elastic Pool;vCore;SQL Database;Single/Elastic Pool%;vCore;Microsoft.Sql
+Database;Database;Azure SQL Database;Elastic Pool;eDTUs;SQL Database;Elastic Pool%;eDTUs;Microsoft.Sql
+Database;Database;Azure SQL Database;SingleDB Hyperscale;vCore;SQL Database;SingleDB Hyperscale%;vCore;Microsoft.Sql
+Database;Database;Azure SQL Database;Single Database;DTUs;SQL Database;Single%;%DTUs;Microsoft.Sql
+Database;Database;Azure SQL Database;Compute Reservation;Usage;SQL Database;Compute Reservation;Usage;Microsoft.Sql
+Database;Database;Azure SQL Database;Compute Reservation;Usage;SQL Database;Compute Reservation;Usage;Microsoft.Sql
+Database;Database;Azure SQL Database;General;General;SQL Database;;;Microsoft.Sql
+Database;Database;Azure SQL Data Warehouse;Storage;Storage;SQL Data Warehouse;%Storage;;Microsoft.Sql
+Storage;Storage&Content Delivery;Azure Storage;SQL Storage;SQL Storage;Storage;;;Microsoft.Sql
+Storage;Storage&Content Delivery;Azure Storage;Backup Storage;Backup Storage;Storage;;;microsoft._ackup
+Storage;Storage&Content Delivery;Azure Storage;Recovery Services;Recovery Services;Storage;;;Microsoft.RecoveryServices
+Storage;Storage&Content Delivery;Azure Storage;General Storage;General Storage;Storage;;;%_torage%
+Storage;Storage&Content Delivery;Azure Storage;Compute Storage;Compute Storage;Storage;;;Microsoft.Compute
+Storage;Storage&Content Delivery;Azure Storage;Machine Learning Storage;Machine Learning Storage;Storage;;;Microsoft.MachineLearningServices
+Storage;Storage&Content Delivery;Azure Storage;Batch Storage;Batch Storage;Storage;;;Microsoft.Batch
+Compute;Compute;Azure Virtual Machines;General;General;Virtual Machines Licenses;;;
+Compute;Compute;Azure Virtual Machines;Red Hat Enterprise Linux;Compute Hours;Virtual Machines;Red Hat Enterprise Linux%;Compute Hours;%Compute
+Compute;Compute;Azure Virtual Machines;SQL Server;Compute Hours;Virtual Machines;SQL Server%;Compute Hours;
+Compute;Compute;Azure Virtual Machines;BizTalk Server;Compute Hours;Virtual Machines;BizTalk Server;Compute Hours;%Compute
+Compute;Compute;Azure Virtual Machines;BizTalk Server Standard;Compute Hours;Virtual Machines;BizTalk Server Standard%;Compute Hours;%Compute
+Compute;Compute;Azure Virtual Machines;Java Development Environment;Compute Hours;Virtual Machines;Java Development Environment%;Compute Hours;Unassigned
+Compute;Compute;Azure Virtual Machines;Reservation;Compute Hours;Virtual Machines;Reservation%;Compute Hours;%Compute
+Cloud Services;Developer Tools;Visual Studio Team Services;Team Services;Users;Visual Studio;Team Services;Users;
+Cloud Services;Developer Tools;Visual Studio Team Services;Build and Deployment;Private Agents;Visual Studio;Build and Deployment;Private Agents;
+Cloud Services;Developer Tools;Visual Studio Team Services;Build and Deployment;Hosted Agents;Visual Studio;Build and Deployment;Hosted Agents;
+Cloud Services;Developer Tools;Visual Studio Team Services;Application Insights;Application Insights;Visual Studio;Application Insights;;microsoft.insights
+Cloud Services;Application Services;Azure App Service;Web Sites;Free Web Sites;Websites;Web Sites;Free Web Sites;Microsoft.Web
+Cloud Services;Application Services;Azure App Service;General;Hours;Websites;;%Hours;Microsoft.Web
+Cloud Services;Application Services;Azure App Service;Web Sites;IP SSL;Websites;Web Sites;IP SSL;Microsoft.Web
+Cloud Services;Analytics;Azure Data Factory;Data Movement;Cloud Data Movement;Azure Data Factory v2;;Cloud Data Movement;Microsoft.DataFactory
+Cloud Services;Analytics;Azure Data Factory;Orchestration;Cloud Orchestration Activity Run;Azure Data Factory v2;;Cloud Orchestration Activity Run;Microsoft.DataFactory
+Cloud Services;Analytics;Azure Data Factory;Pipeline Activity;Cloud Pipeline Activity External IR;Azure Data Factory v2;;Cloud Pipeline Activity External IR;Microsoft.DataFactory
+Cloud Services;Analytics;Azure Data Factory;Pipeline Activity;Cloud Pipeline Activity IR;Azure Data Factory v2;;Cloud Pipeline Activity IR;Microsoft.DataFactory
+Cloud Services;Analytics;Azure Data Factory;Monitoring;Monitoring Operations;Azure Data Factory v2;;Monitoring Operations;Microsoft.DataFactory
+Cloud Services;Analytics;Azure Data Factory;Read Write;Read Write Operations;Azure Data Factory v2;;Read Write Operations;Microsoft.DataFactory
