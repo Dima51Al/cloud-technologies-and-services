@@ -1,0 +1,54 @@
+IT Tower;Service Family;Service Type;Service Sub Type;Service Usage Type;Product Code;Usage Type; [lineItem/Operation];lineItem/LineItemDescription
+Cloud Services;Security and Identity;Amazon Macie;Data Discovery & Classification;;AmazonMacie;;;
+Cloud Services;Analytics;Amazon Managed Streaming for Apache Kafka;Additional Costs;Tax;AmazonMSK;;;Tax%
+Cloud Services;Analytics;Amazon Managed Streaming for Apache Kafka;Broker;Broker Runtime;AmazonMSK;;RunBroker;
+Cloud Services;Analytics;Amazon Managed Streaming for Apache Kafka;Storage-GP2;Storage-GP2;AmazonMSK;%Storage.GP2;;
+Cloud Services;Analytics;Amazon Managed Streaming for Apache Kafka;Data Transfer;Data Transfer;AmazonMSK;%Bytes;;
+Cloud Services;Artificial Intelligence;Amazon Polly;Additional Costs;Tax;AmazonPolly;;;
+Cloud Services;Artificial Intelligence;Amazon Personalize;Additional Costs;Tax;AmazonPersonalize;;;Tax%
+Cloud Services;Artificial Intelligence;Amazon Personalize;Processing;TPS Hours;AmazonPersonalize;%TPS-hours;;
+Cloud Services;Artificial Intelligence;Amazon Personalize;Model Training;Training Hours;AmazonPersonalize;%TrainingHour;;
+Cloud Services;Artificial Intelligence;Amazon Personalize;Data Ingestion;Data Ingestion;AmazonPersonalize;%DataIngestion;;
+Storage;Storage&Content Delivery;Amazon S3;Data Transfer;Data Transfer;AmazonS3;%DataTransfer%;;
+Storage;Storage&Content Delivery;Amazon S3;Data Transfer;Data Transfer;AmazonS3;%AWS-%ytes;;
+Storage;Storage&Content Delivery;Amazon S3;Data Transfer;Data Transfer;AmazonS3;%DataXfer%;;
+Storage;Storage&Content Delivery;Amazon S3;Glacier;Retrieval Bytes;AmazonS3;%Retrieval-Bytes%;;
+Storage;Storage&Content Delivery;Amazon S3;RTC;RTC Bytes;AmazonS3;%S3RTC%-Bytes%;;
+Storage;Storage&Content Delivery;Amazon S3;ZIA Storage;ZIA Retrieval;AmazonS3;%Retrieval-ZIA;;
+Storage;Storage&Content Delivery;Amazon S3;Cloud Front;CloudFront Bytes;AmazonS3;%CloudFront%Bytes;;
+Storage;Storage&Content Delivery;Amazon S3;Additional Costs;Tax;AmazonS3%;;;Tax%
+Storage;Storage&Content Delivery;Amazon S3;SIA Storage;SIA Retrieval;AmazonS3;%Retrieval-SIA%;;
+Storage;Storage&Content Delivery;Amazon S3;Storage;Bytes Hours;AmazonS3;%TimedStorage-ByteHrs;;
+Storage;Storage&Content Delivery;Amazon S3;Glacier;Glacier Byte Hours;AmazonS3;%TimedStorage-GlacierByteHrs;;
+Storage;Storage&Content Delivery;Amazon S3;Glacier;Glacier Staging;AmazonS3;%TimedStorage-GlacierStaging;;
+Storage;Storage&Content Delivery;Amazon S3;Glacier ;GDA Byte Hours;AmazonS3;%TimedStorage-GDA-ByteHrs;;
+Storage;Storage&Content Delivery;Amazon S3;Glacier;GDA Staging;AmazonS3;%TimedStorage-GDA-Staging;;
+Storage;Storage&Content Delivery;Amazon S3;INT-FA Storage;INT-FA Byte Hours;AmazonS3;%TimedStorage-INT-FA-ByteHrs;;
+Storage;Storage&Content Delivery;Amazon S3;INT-AI Storage;INT-IA Byte Hours;AmazonS3;%TimedStorage-INT-IA-ByteHrs;;
+Storage;Storage&Content Delivery;Amazon S3;RRS Storage;RRS Byte Hours;AmazonS3;%TimedStorage-RRS-ByteHrs;;
+Storage;Storage&Content Delivery;Amazon S3;ZIA Storage;ZIA;AmazonS3;%TimedStorage-ZIA%;;
+Storage;Storage&Content Delivery;Amazon S3;SIA Storage;SIA;AmazonS3;%TimedStorage-SIA%;;
+Storage;Storage&Content Delivery;Amazon S3;Monitoring;Automation INT;AmazonS3;%Monitoring-Automation-INT;;
+Storage;Storage&Content Delivery;Amazon S3;GDA Storage;GDA Early Delete;AmazonS3;%EarlyDelete-GDA;;
+Storage;Storage&Content Delivery;Amazon S3;INT Storage;INT Early Delete;AmazonS3;%EarlyDelete-INT;;
+Storage;Storage&Content Delivery;Amazon S3;ZIA Storage;ZIA Early Delete;AmazonS3;%EarlyDelete-ZIA%;;
+Storage;Storage&Content Delivery;Amazon S3;SIA Storage;SIA Early Delete;AmazonS3;%EarlyDelete-SIA%;;
+Storage;Storage&Content Delivery;Amazon S3;Requests;Tier1 Requests;AmazonS3;%Requests%Tier1;;
+Storage;Storage&Content Delivery;Amazon S3;Requests;Tier2 Requests;AmazonS3;%Requests%Tier2;;
+Storage;Storage&Content Delivery;Amazon S3;Requests;Tier3 Requests;AmazonS3;%Requests%Tier3;;
+Storage;Storage&Content Delivery;Amazon S3;Requests;Tier4 Requests;AmazonS3;%Requests%Tier4;;
+Storage;Storage&Content Delivery;Amazon S3;Requests;Tier5 Requests;AmazonS3;%Requests%Tier5;;
+Storage;Storage&Content Delivery;Amazon S3;Requests;Tier6 Requests;AmazonS3;%Requests%Tier6;;
+Storage;Storage&Content Delivery;Amazon S3;Tag Management;Tag Hours;AmazonS3;%TagStorage-TagHrs%;;
+Storage;Storage&Content Delivery;Amazon S3;Inventory;Objects Listed;AmazonS3;%Inventory-ObjectsListed;;
+Storage;Storage&Content Delivery;Amazon S3;Batch Operations;Batch Operations;AmazonS3;BatchOperations%;;
+Storage;Storage&Content Delivery;Amazon S3;Early Delete;Early Delete Byte Hours;AmazonS3;%EarlyDelete-ByteHrs%;;
+Cloud Services;Analytics;Amazon Elastic Search;Additional Costs;Tax;AmazonES;;;Tax%
+Cloud Services;Analytics;Amazon Elastic Search;Data Transfer;DataTransfer;AmazonES;%DataTransfer%Bytes;;
+Cloud Services;Analytics;Amazon Elastic Search;Data Transfer;Data Transfer;AmazonES;%AWS%Bytes;;
+Cloud Services;Analytics;Amazon Elastic Search;Storage;GP2 Storage;AmazonES;%ES:GP2-Storage%;;
+Cloud Services;Analytics;Amazon Elastic Search;Storage;Magnetic Storage;AmazonES;%ES:Magnetic-Storage;;
+Cloud Services;Analytics;Amazon Elastic Search;Instance;Instance ;AmazonES;%ESInstance%;;
+Cloud Services;Analytics;Amazon Elastic Search;Instance;Heavy Usage;AmazonES;%HeavyUsage%;;
+Cloud Services;Analytics;Amazon Elastic Search;Storage;PIOPS;AmazonES;%PIOPS%;;
+Cloud Services;Analytics;Amazon Elastic Search;Cloud Front;CloudFront Transfer;AmazonES;%CloudFront%;;
